@@ -1,0 +1,140 @@
+{
+  "navbar": {
+    "about": "Acerca de",
+    "products": "Productos",
+    "for_teams": "Para Equipos",
+    "search_placeholder": "Buscar...",
+    "login": "Iniciar sesión",
+    "obtain_location": "Obtener Ubicación",
+    "logout": "Cerrar sesión",
+    "location": "Tu ubicación",
+    "latitude": "Latitud",
+    "longitude": "Longitud",
+    "location_error": "Acceso a la ubicación denegado o ocurrió un error.",
+    "geolocation_unsupported": "La geolocalización no es compatible con este navegador.",
+    "lang_en": "Inglés",
+    "lang_es": "Español",
+    "lang_hi": "Hindi",
+    "lang_pt": "Portugués",
+    "lang_zh": "Chino",
+    "lang_fr": "Francés",
+    "verify_otp": "Verificar OTP",
+    "otp_sent": "OTP enviado a tu correo electrónico",
+    "enter_otp": "Ingresar OTP",
+    "submit_otp": "Enviar OTP",
+    "cancel": "Cancelar"
+  },
+  "leftsidebar": {
+    "home": "Inicio",
+    "public": "PÚBLICO",
+    "questions": "Preguntas",
+    "tags": "Etiquetas",
+    "users": "Usuarios"
+  },
+  "homemainbar": {
+    "top_questions": "Preguntas Principales",
+    "all_questions": "Todas las Preguntas",
+    "ask_question": "Hacer una Pregunta",
+    "login_prompt": "Inicia sesión o regístrate para hacer una pregunta",
+    "loading": "Cargando...",
+    "questions_count": "preguntas"
+  },
+  "widget": {
+    "overflow_blog": "El Blog Overflow",
+    "blog_1": "La observabilidad es clave para el futuro del software (y tu carrera en DevOps)",
+    "blog_2": "Podcast 374: ¿Qué tan valioso es tu nombre en pantalla?",
+    "featured_meta": "Destacado en Meta",
+    "meta_1": "Flujos de trabajo de la cola de revisión - Lanzamiento final...",
+    "meta_2": "Por favor, da la bienvenida a los Asociados Valiosos: #958 - V2Blast #959 - SpencerG",
+    "meta_3": "Respuestas obsoletas: la respuesta aceptada ya no está fijada en Stack Overflow",
+    "hot_meta": "Publicaciones Meta Populares",
+    "hot_meta_1": "¿Por qué se rechazó esta bandera de spam, pero la pregunta se marcó como spam?",
+    "hot_meta_2": "¿Cuál es el mejor curso de acción cuando un usuario tiene suficiente reputación para...?",
+    "hot_meta_3": "¿Es útil un enlace a la página de ayuda 'Cómo preguntar' como comentario?"
+  },
+  "widgettag": {
+    "watched_tags": "Etiquetas observadas"
+  },
+  "tags": {
+    "title": "Etiquetas",
+    "description1": "Una etiqueta es una palabra clave o categoría que agrupa tu pregunta con otras preguntas similares.",
+    "description2": "Usar las etiquetas correctas facilita que otros encuentren y respondan tu pregunta."
+  },
+  "tagsList": {
+    "javascript": {
+      "tagName": "javascript",
+      "tagDesc": "Para preguntas sobre programación en ECMAScript (JavaScript/JS) y sus diversas dialectos/implementaciones (excluyendo ActionScript). Incluye todas las etiquetas relevantes en tu pregunta."
+    },
+    "python": {
+      "tagName": "python",
+      "tagDesc": "Python es un lenguaje de programación multiparadigma, tipado dinámicamente y de propósito general. Está diseñado para ser fácil de aprender, entender y usar, y aplica una sintaxis limpia y uniforme."
+    },
+    "csharp": {
+      "tagName": "c#",
+      "tagDesc": "C# (pronunciado 'see sharp') es un lenguaje de programación de alto nivel, tipado estáticamente, multiparadigma desarrollado por Microsoft."
+    },
+    "java": {
+      "tagName": "java",
+      "tagDesc": "Java es un lenguaje de programación orientado a objetos de alto nivel. Usa esta etiqueta cuando tengas problemas usando o entendiendo el lenguaje en sí."
+    },
+    "php": {
+      "tagName": "php",
+      "tagDesc": "PHP es un lenguaje de scripting interpretado, de código abierto, multiparadigma, tipado dinámicamente, ampliamente utilizado, diseñado originalmente para el desarrollo web del lado del servidor."
+    },
+    "html": {
+      "tagName": "html",
+      "tagDesc": "HTML (Lenguaje de Marcado de Hipertexto) es el lenguaje de marcado para crear páginas web y otra información que se muestra en un navegador web."
+    },
+    "android": {
+      "tagName": "android",
+      "tagDesc": "Android es el sistema operativo móvil de Google, utilizado para programar o desarrollar dispositivos digitales (smartphones, tabletas, automóviles, TVs, wearables, Glass, IoT)."
+    },
+    "css": {
+      "tagName": "css",
+      "tagDesc": "CSS es un lenguaje de hojas de estilo usado para describir el aspecto y formato de documentos HTML, XML y elementos SVG, incluyendo colores, diseño, fuentes y animaciones."
+    },
+    "reactjs": {
+      "tagName": "Reactjs",
+      "tagDesc": "React es una biblioteca de JavaScript para construir interfaces de usuario. Usa un paradigma declarativo basado en componentes y busca ser eficiente y flexible."
+    },
+    "nodejs": {
+      "tagName": "node.js",
+      "tagDesc": "Node.js es un entorno de ejecución asíncrono, no bloqueante, basado en eventos que utiliza el motor V8 de JavaScript de Google y la biblioteca libuv."
+    }
+  },
+  "users": {
+    "title": "Usuarios"
+  },
+  "userprofile": {
+    "title": "Perfil de Usuario",
+    "obtain_location": "Obtener Ubicación",
+    "location": "Ubicación",
+    "weather": "Clima",
+    "unknown_city": "Ciudad Desconocida",
+    "unknown_state": "Estado Desconocido",
+    "unknown_country": "País Desconocido",
+    "fetch_error": "Error al obtener datos de ubicación o clima.",
+    "location_error": "Acceso a la ubicación denegado o ocurrió un error.",
+    "geolocation_unsupported": "La geolocalización no es compatible con este navegador."
+  },
+  "question": {
+    "votes": "votos",
+    "answers": "respuestas",
+    "asked": "preguntado"
+  },
+  "askquestion": {
+    "title": "Hacer una Pregunta Pública",
+    "title_label": "Título",
+    "title_description": "Sé específico e imagina que estás haciendo una pregunta a otra persona",
+    "title_placeholder": "p.ej. ¿Existe una función en R para encontrar el índice de un elemento en un vector?",
+    "body_label": "Cuerpo",
+    "body_description": "Incluye toda la información que alguien necesitaría para responder tu pregunta",
+    "tags_label": "Etiquetas",
+    "tags_description": "Agrega hasta 5 etiquetas para describir de qué trata tu pregunta",
+    "tags_placeholder": "p.ej. (xml typescript wordpress)",
+    "submit_button": "Revisar tu pregunta",
+    "success_alert": "Has publicado una pregunta exitosamente",
+    "fields_alert": "Por favor completa todos los campos",
+    "login_alert": "Inicia sesión para hacer una pregunta"
+  }
+}

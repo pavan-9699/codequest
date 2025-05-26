@@ -1,0 +1,140 @@
+{
+  "navbar": {
+    "about": "À propos",
+    "products": "Produits",
+    "for_teams": "Pour les équipes",
+    "search_placeholder": "Rechercher...",
+    "login": "Se connecter",
+    "obtain_location": "Obtenir la localisation",
+    "logout": "Se déconnecter",
+    "location": "Votre localisation",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "location_error": "Accès à la localisation refusé ou une erreur s'est produite.",
+    "geolocation_unsupported": "La géolocalisation n'est pas prise en charge par ce navigateur.",
+    "lang_en": "Anglais",
+    "lang_es": "Espagnol",
+    "lang_hi": "Hindi",
+    "lang_pt": "Portugais",
+    "lang_zh": "Chinois",
+    "lang_fr": "Français"
+  },
+  "leftsidebar": {
+    "home": "Accueil",
+    "public": "PUBLIC",
+    "questions": "Questions",
+    "tags": "Étiquettes",
+    "users": "Utilisateurs"
+  },
+  "homemainbar": {
+    "top_questions": "Questions principales",
+    "all_questions": "Toutes les questions",
+    "ask_question": "Poser une question",
+    "login_prompt": "Connectez-vous ou inscrivez-vous pour poser une question",
+    "loading": "Chargement...",
+    "questions_count": "questions"
+  },
+  "widget": {
+    "overflow_blog": "Le blog Overflow",
+    "blog_1": "L'observabilité est la clé de l'avenir du logiciel (et de votre carrière en DevOps)",
+    "blog_2": "Podcast 374 : Quelle est la valeur de votre nom d'écran ?",
+    "featured_meta": "Mis en avant sur Meta",
+    "meta_1": "Flux de travail de la file de révision - Version finale...",
+    "meta_2": "Veuillez accueillir les associés précieux : #958 - V2Blast #959 - SpencerG",
+    "meta_3": "Réponses obsolètes : la réponse acceptée n'est plus épinglée sur Stack Overflow",
+    "hot_meta": "Publications Meta populaires",
+    "hot_meta_1": "Pourquoi ce drapeau de spam a-t-il été refusé, alors que la question a été marquée comme spam ?",
+    "hot_meta_2": "Quel est le meilleur plan d'action lorsqu'un utilisateur a suffisamment de réputation pour... ?",
+    "hot_meta_3": "Un lien vers la page d'aide 'Comment poser une question' est-il un commentaire utile ?"
+  },
+  "widgettag": {
+    "watched_tags": "Étiquettes suivies"
+  },
+  "tags": {
+    "title": "Étiquettes",
+    "description1": "Une étiquette est un mot-clé ou un label qui catégorise votre question avec d'autres questions similaires.",
+    "description2": "Utiliser les bonnes étiquettes facilite la recherche et la réponse à votre question par d'autres."
+  },
+  "tagsList": {
+    "javascript": {
+      "tagName": "javascript",
+      "tagDesc": "Pour les questions concernant la programmation en ECMAScript (JavaScript/JS) et ses différentes dialectes/implémentations (hors ActionScript). Veuillez inclure toutes les étiquettes pertinentes dans votre question."
+    },
+    "python": {
+      "tagName": "python",
+      "tagDesc": "Python est un langage de programmation multi-paradigme, typé dynamiquement, polyvalent. Il est conçu pour être rapide à apprendre, comprendre et utiliser, et impose une syntaxe propre et uniforme."
+    },
+    "csharp": {
+      "tagName": "c#",
+      "tagDesc": "C# (prononcé 'see sharp') est un langage de programmation de haut niveau, typé statiquement, multi-paradigme développé par Microsoft."
+    },
+    "java": {
+      "tagName": "java",
+      "tagDesc": "Java est un langage de programmation orienté objet de haut niveau. Utilisez cette étiquette lorsque vous rencontrez des problèmes en utilisant ou en comprenant le langage lui-même."
+    },
+    "php": {
+      "tagName": "php",
+      "tagDesc": "PHP est un langage de script interprété, open source, multi-paradigme, typé dynamiquement, largement utilisé, initialement conçu pour le développement web côté serveur."
+    },
+    "html": {
+      "tagName": "html",
+      "tagDesc": "HTML (HyperText Markup Language) est le langage de balisage pour créer des pages web et d'autres informations affichées dans un navigateur web."
+    },
+    "android": {
+      "tagName": "android",
+      "tagDesc": "Android est le système d'exploitation mobile de Google, utilisé pour programmer ou développer des appareils numériques (smartphones, tablettes, automobiles, téléviseurs, wearables, Glass, IoT)."
+    },
+    "css": {
+      "tagName": "css",
+      "tagDesc": "CSS est un langage de feuilles de style utilisé pour décrire l'apparence et la mise en forme des documents HTML, XML et des éléments SVG, y compris les couleurs, la disposition, les polices et les animations."
+    },
+    "reactjs": {
+      "tagName": "Reactjs",
+      "tagDesc": "React est une bibliothèque JavaScript pour construire des interfaces utilisateur. Elle utilise un paradigme déclaratif basé sur les composants et vise à être à la fois efficace et flexible."
+    },
+    "nodejs": {
+      "tagName": "node.js",
+      "tagDesc": "Node.js est un environnement d'exécution asynchrone, non bloquant, basé sur les événements, qui utilise le moteur V8 JavaScript de Google et la bibliothèque libuv."
+    }
+  },
+  "users": {
+    "title": "Utilisateurs"
+  },
+  "userprofile": {
+    "title": "Profil de l'utilisateur",
+    "obtain_location": "Obtenir la localisation",
+    "location": "Localisation",
+    "weather": "Météo",
+    "unknown_city": "Ville inconnue",
+    "unknown_state": "État inconnu",
+    "unknown_country": "Pays inconnu",
+    "fetch_error": "Erreur lors de la récupération des données de localisation ou météo.",
+    "location_error": "Accès à la localisation refusé ou une erreur s'est produite.",
+    "geolocation_unsupported": "La géolocalisation n'est pas prise en charge par ce navigateur."
+  },
+  "question": {
+    "votes": "votes",
+    "answers": "réponses",
+    "asked": "posé"
+  },
+  "askquestion": {
+    "title": "Poser une question publique",
+    "title_label": "Titre",
+    "title_description": "Soyez spécifique et imaginez que vous posez une question à une autre personne",
+    "title_placeholder": "ex. : Existe-t-il une fonction en R pour trouver l'index d'un élément dans un vecteur ?",
+    "body_label": "Corps",
+    "body_description": "Incluez toutes les informations nécessaires pour répondre à votre question",
+    "tags_label": "Étiquettes",
+    "tags_description": "Ajoutez jusqu'à 5 étiquettes pour décrire le sujet de votre question",
+    "tags_placeholder": "ex. : (xml typescript wordpress)",
+    "submit_button": "Vérifier votre question",
+    "success_alert": "Vous avez publié une question avec succès",
+    "fields_alert": "Veuillez remplir tous les champs",
+    "login_alert": "Connectez-vous pour poser une question",
+    "verify_otp": "Vérifier l'OTP",
+    "otp_sent": "OTP envoyé à votre e-mail",
+    "enter_otp": "Entrer l'OTP",
+    "submit_otp": "Soumettre l'OTP",
+    "cancel": "Annuler"
+  }
+}

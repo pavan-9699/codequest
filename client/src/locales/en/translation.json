@@ -1,0 +1,140 @@
+{
+  "navbar": {
+    "about": "About",
+    "products": "Products",
+    "for_teams": "For Teams",
+    "search_placeholder": "Search...",
+    "login": "Log in",
+    "obtain_location": "Obtain Location",
+    "logout": "Log out",
+    "location": "Your location",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "location_error": "Location access denied or error occurred.",
+    "geolocation_unsupported": "Geolocation is not supported by this browser.",
+    "lang_en": "English",
+    "lang_es": "Spanish",
+    "lang_hi": "Hindi",
+    "lang_pt": "Portuguese",
+    "lang_zh": "Chinese",
+    "lang_fr": "French",
+    "verify_otp": "Verify OTP",
+    "otp_sent": "OTP sent to your email",
+    "enter_otp": "Enter OTP",
+    "submit_otp": "Submit OTP",
+    "cancel": "Cancel"
+  },
+  "leftsidebar": {
+    "home": "Home",
+    "public": "PUBLIC",
+    "questions": "Questions",
+    "tags": "Tags",
+    "users": "Users"
+  },
+  "homemainbar": {
+    "top_questions": "Top Questions",
+    "all_questions": "All Questions",
+    "ask_question": "Ask Question",
+    "login_prompt": "Login or signup to ask a question",
+    "loading": "Loading...",
+    "questions_count": "questions"
+  },
+  "widget": {
+    "overflow_blog": "The Overflow Blog",
+    "blog_1": "Observability is key to the future of software (and your DevOps career)",
+    "blog_2": "Podcast 374: How valuable is your screen name?",
+    "featured_meta": "Featured on Meta",
+    "meta_1": "Review queue workflows - Final release...",
+    "meta_2": "Please welcome Valued Associates: #958 - V2Blast #959 - SpencerG",
+    "meta_3": "Outdated Answers: accepted answer is now unpinned on Stack Overflow",
+    "hot_meta": "Hot Meta Posts",
+    "hot_meta_1": "Why was this spam flag declined, yet the question marked as spam?",
+    "hot_meta_2": "What is the best course of action when a user has high enough rep to...",
+    "hot_meta_3": "Is a link to the 'How to ask' help page a useful comment?"
+  },
+  "widgettag": {
+    "watched_tags": "Watched tags"
+  },
+  "tags": {
+    "title": "Tags",
+    "description1": "A tag is a keyword or label that categorizes your question with other similar questions.",
+    "description2": "Using the right tags makes it easier for others to find and answer your question."
+  },
+  "tagsList": {
+    "javascript": {
+      "tagName": "javascript",
+      "tagDesc": "For questions regarding programming in ECMAScript (JavaScript/JS) and its various dialects/implementations (excluding ActionScript). Please include all relevant tags on your question."
+    },
+    "python": {
+      "tagName": "python",
+      "tagDesc": "Python is a multi-paradigm, dynamically typed, multipurpose programming language. It is designed to be quick to learn, understand, and use, and enforces a clean and uniform syntax."
+    },
+    "csharp": {
+      "tagName": "c#",
+      "tagDesc": "C# (pronounced 'see sharp') is a high level, statically typed, multi-paradigm programming language developed by Microsoft."
+    },
+    "java": {
+      "tagName": "java",
+      "tagDesc": "Java is a high-level object oriented programming language. Use this tag when you're having problems using or understanding the language itself."
+    },
+    "php": {
+      "tagName": "php",
+      "tagDesc": "PHP is a widely used, open source, general-purpose, multi-paradigm, dynamically typed and interpreted scripting language originally designed for server-side web development."
+    },
+    "html": {
+      "tagName": "html",
+      "tagDesc": "HTML (HyperText Markup Language) is the markup language for creating web pages and other information to be displayed in a web browser."
+    },
+    "android": {
+      "tagName": "android",
+      "tagDesc": "Android is Google's mobile operating system, used for programming or developing digital devices (Smartphones, Tablets, Automobiles, TVs, Wear, Glass, IoT)."
+    },
+    "css": {
+      "tagName": "css",
+      "tagDesc": "CSS is a representation style sheet language used for describing the look and formatting of HTML, XML documents and SVG elements including colors, layout, fonts, and animations."
+    },
+    "reactjs": {
+      "tagName": "Reactjs",
+      "tagDesc": "React is a JavaScript library for building user interfaces. It uses a declarative, component-based paradigm and aims to be both efficient and flexible."
+    },
+    "nodejs": {
+      "tagName": "node.js",
+      "tagDesc": "Node.js is an event-based, non-blocking, asynchronous I/O runtime that uses Google's V8 JavaScript engine and libuv library."
+    }
+  },
+  "users": {
+    "title": "Users"
+  },
+  "userprofile": {
+    "title": "User Profile",
+    "obtain_location": "Obtain Location",
+    "location": "Location",
+    "weather": "Weather",
+    "unknown_city": "Unknown City",
+    "unknown_state": "Unknown State",
+    "unknown_country": "Unknown Country",
+    "fetch_error": "Error fetching location or weather data.",
+    "location_error": "Location access denied or error occurred.",
+    "geolocation_unsupported": "Geolocation is not supported by this browser."
+  },
+  "question": {
+    "votes": "votes",
+    "answers": "answers",
+    "asked": "asked"
+  },
+  "askquestion": {
+    "title": "Ask a public Question",
+    "title_label": "Title",
+    "title_description": "Be specific and imagine you're asking a question to another person",
+    "title_placeholder": "e.g. Is there an R function for finding the index of an element in a vector?",
+    "body_label": "Body",
+    "body_description": "Include all the information someone would need to answer your question",
+    "tags_label": "Tags",
+    "tags_description": "Add up to 5 tags to describe what your question is about",
+    "tags_placeholder": "e.g. (xml typescript wordpress)",
+    "submit_button": "Review your question",
+    "success_alert": "You have successfully posted a question",
+    "fields_alert": "Please enter all the fields",
+    "login_alert": "Login to ask question"
+  }
+}

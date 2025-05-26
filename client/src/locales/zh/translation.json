@@ -1,0 +1,140 @@
+{
+  "navbar": {
+    "about": "关于",
+    "products": "产品",
+    "for_teams": "为团队",
+    "search_placeholder": "搜索...",
+    "login": "登录",
+    "obtain_location": "获取位置",
+    "logout": "退出",
+    "location": "您的位置",
+    "latitude": "纬度",
+    "longitude": "经度",
+    "location_error": "位置访问被拒绝或发生错误。",
+    "geolocation_unsupported": "此浏览器不支持地理定位。",
+    "lang_en": "英语",
+    "lang_es": "西班牙语",
+    "lang_hi": "印地语",
+    "lang_pt": "葡萄牙语",
+    "lang_zh": "中文",
+    "lang_fr": "法语",
+    "verify_otp": "验证OTP",
+    "otp_sent": "OTP已发送到您的邮箱",
+    "enter_otp": "输入OTP",
+    "submit_otp": "提交OTP",
+    "cancel": "取消"
+  },
+  "leftsidebar": {
+    "home": "首页",
+    "public": "公开",
+    "questions": "问题",
+    "tags": "标签",
+    "users": "用户"
+  },
+  "homemainbar": {
+    "top_questions": "热门问题",
+    "all_questions": "所有问题",
+    "ask_question": "提问",
+    "login_prompt": "登录或注册以提问",
+    "loading": "加载中...",
+    "questions_count": "问题"
+  },
+  "widget": {
+    "overflow_blog": "Overflow博客",
+    "blog_1": "可观察性是软件未来（以及您的DevOps职业生涯）的关键",
+    "blog_2": "播客374：您的屏幕名称有多大价值？",
+    "featured_meta": "Meta精选",
+    "meta_1": "审查队列工作流程 - 最终发布...",
+    "meta_2": "请欢迎尊贵的合作伙伴：#958 - V2Blast #959 - SpencerG",
+    "meta_3": "过时回答：接受的回答现已在Stack Overflow上取消固定",
+    "hot_meta": "热门Meta帖子",
+    "hot_meta_1": "为什么这个垃圾信息标志被拒绝，但问题被标记为垃圾信息？",
+    "hot_meta_2": "当用户有足够声誉时，最佳行动方案是什么...？",
+    "hot_meta_3": "指向“如何提问”帮助页的链接是有用的评论吗？"
+  },
+  "widgettag": {
+    "watched_tags": "关注的标签"
+  },
+  "tags": {
+    "title": "标签",
+    "description1": "标签是一个关键字或标签，将您的问题与其他类似问题分类。",
+    "description2": "使用正确的标签使他人更容易找到并回答您的问题。"
+  },
+  "tagsList": {
+    "javascript": {
+      "tagName": "javascript",
+      "tagDesc": "关于在ECMAScript（JavaScript/JS）及其各种方言/实现（不包括ActionScript）中编程的问题。请在您的问题中包含所有相关标签。"
+    },
+    "python": {
+      "tagName": "python",
+      "tagDesc": "Python 是一种多范式、动态类型、多用途的编程语言。它设计为易于学习、理解和使用，并强制执行干净统一的语法。"
+    },
+    "csharp": {
+      "tagName": "c#",
+      "tagDesc": "C#（发音为'see sharp'）是由微软开发的高级、静态类型、多范式编程语言。"
+    },
+    "java": {
+      "tagName": "java",
+      "tagDesc": "Java 是一种高级面向对象的编程语言。当您在使用或理解该语言本身时遇到问题，请使用此标签。"
+    },
+    "php": {
+      "tagName": "php",
+      "tagDesc": "PHP 是一种广泛使用的、开源的、通用、多范式、动态类型和解释型脚本语言，最初设计用于服务器端Web开发。"
+    },
+    "html": {
+      "tagName": "html",
+      "tagDesc": "HTML（超文本标记语言）是用于创建网页和其他在Web浏览器中显示的信息的标记语言。"
+    },
+    "android": {
+      "tagName": "android",
+      "tagDesc": "Android 是谷歌的移动操作系统，用于编程或开发数字设备（智能手机、平板电脑、汽车、电视、可穿戴设备、Glass、物联网）。"
+    },
+    "css": {
+      "tagName": "css",
+      "tagDesc": "CSS 是一种表示样式表语言，用于描述HTML、XML文档和SVG元素的样式和格式，包括颜色、布局、字体和动画。"
+    },
+    "reactjs": {
+      "tagName": "Reactjs",
+      "tagDesc": "React 是一个用于构建用户界面的JavaScript库。它使用声明式、基于组件的范式，旨在高效且灵活。"
+    },
+    "nodejs": {
+      "tagName": "node.js",
+      "tagDesc": "Node.js 是一个基于事件的、非阻塞的、异步I/O运行时，使用谷歌的V8 JavaScript引擎和libuv库。"
+    }
+  },
+  "users": {
+    "title": "用户"
+  },
+  "userprofile": {
+    "title": "用户简介",
+    "obtain_location": "获取位置",
+    "location": "位置",
+    "weather": "天气",
+    "unknown_city": "未知城市",
+    "unknown_state": "未知州",
+    "unknown_country": "未知国家",
+    "fetch_error": "获取位置或天气数据时出错。",
+    "location_error": "位置访问被拒绝或发生错误。",
+    "geolocation_unsupported": "此浏览器不支持地理定位。"
+  },
+  "question": {
+    "votes": "投票",
+    "answers": "回答",
+    "asked": "提问"
+  },
+  "askquestion": {
+    "title": "提出一个公开问题",
+    "title_label": "标题",
+    "title_description": "具体一些，想象您正在向另一个人提问",
+    "title_placeholder": "例如：R语言中有没有一个函数可以找到向量中元素的索引？",
+    "body_label": "正文",
+    "body_description": "包括回答您的问题所需的所有信息",
+    "tags_label": "标签",
+    "tags_description": "添加最多5个标签来描述您的问题内容",
+    "tags_placeholder": "例如：(xml typescript wordpress)",
+    "submit_button": "审阅您的问题",
+    "success_alert": "您已成功发布一个问题",
+    "fields_alert": "请填写所有字段",
+    "login_alert": "登录以提问"
+  }
+}

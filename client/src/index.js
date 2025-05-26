@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import { legacy_createStore as createstore, applyMiddleware, compose } from 'redux';
 import {thunk} from "redux-thunk"
 import reducers from './reducers';
+import './i18n';
 
 const store = createstore(reducers, compose(applyMiddleware(thunk)))
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +15,7 @@ root.render(
   <Provider store={store}>
     <React.StrictMode>
       <App />
-    </React.StrictMode>
+    </React.StrictMode>,
   </Provider>
 );
 

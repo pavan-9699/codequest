@@ -7,7 +7,7 @@ const questionreducer=(state={data:null},action)=>{
         case "POST_ANSWER":
             return {...state};
         default:
-            return state;
+            return state;a
     }
 };
 export default questionreducer;

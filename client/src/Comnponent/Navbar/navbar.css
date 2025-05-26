@@ -1,122 +1,296 @@
+/* General Navbar Styles */
 .main-nav {
-    min-height: 50px;
-    width: 100%;
-    margin: 0% auto;
-    border-top: solid 3px #ef8236;
-    box-shadow: 0px 1px 5px #00000033;
-    position: fixed;
-    z-index: 15;
-    top: 0%;
-    left: 0%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-1,
+.navbar-2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #009dff;
+}
+
+.nav-logo img {
+  height: 40px;
+}
+
+.nav-btn {
+  padding: 8px 15px;
+}
+
+.nav-links {
+  font-weight: 600;
+}
+
+/* Search Form */
+form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  padding: 8px 40px 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Language Selector */
+.language-selector {
+  position: relative;
+}
+
+.language-display {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 10;
+}
+
+.language-dropdown button {
+  display: block;
+  width: 100%;
+  padding: 8px 15px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.language-dropdown button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Dropdown for User */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 10;
+}
+
+.dropdown-content a,
+.dropdown-content button {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-content a:hover,
+.dropdown-content button:hover {
+  background-color: #f0f0f0;
+}
+
+/* OTP Modal */
+.otp-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.otp-modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+.otp-modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.otp-modal-content button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #009dff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.otp-modal-content button:hover {
+  background-color: #007acc;
+}
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
   .navbar {
-    height: 100%;
-    min-width: 85%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
   }
-  
+
+  .navbar-1 {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .nav-links.mobile-menu-open {
+    display: flex;
+  }
+
+  .nav-links .nav-item {
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .nav-links form {
+    width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  .navbar-2 {
+    position: absolute;
+    top: 15px;
+    right: 60px;
+  }
+
   .slide-in-icon {
     display: none;
-    transition: 0.2s;
-    padding: 5px 6px 3px 6px;
-    border-radius: 50%;
-    background-color: inherit;
-    border: none;
-    cursor: pointer;
   }
-  
-  .navbar .navbar-1 {
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
+}
+
+@media (max-width: 480px) {
+  .nav-logo img {
+    height: 30px;
   }
-  
-  .navbar .navbar-2 {
-    display: flex;
-    align-items: center;
+
+  .search-input {
+    font-size: 12px;
+    padding: 6px 30px 6px 8px;
   }
-  
-  .nav-logo {
-    padding: 5px 25px;
+
+  .search-icon {
+    width: 15px;
   }
-  
-  .nav-item {
-    
-    margin: 0px 3px;
-    font-size: small;
-    font-weight: 500;
-    text-decoration: none;
-    color: rgb(69, 69, 69);
-    transition: 0.2s;
+
+  .language-display span {
+    font-size: 12px;
   }
-  
-  .nav-btn {
-    cursor: pointer;
-    border-radius: 20px;
-    padding: 10px 20px;
+
+  .otp-modal-content {
+    padding: 15px;
   }
-  
-  .nav-item:hover,
-  .slide-in-icon:hover {
-    background-color: rgb(226, 226, 226);
+
+  .otp-modal-content h3 {
+    font-size: 18px;
   }
-  
-  .navbar .navbar-1 form {
-    flex-grow: 1;
-    padding: 0px 12px;
-    position: relative;
-    
+
+  .otp-modal-content p {
+    font-size: 14px;
   }
-  
-  .navbar .navbar-1 form input {
-    width: 600px;
-    margin: 0;
-    padding: 8px 10px 8px 32px;
-    font-size: 13px;
-    border: solid 1px #0000003e;
-    border-radius: 3px;
+
+  .otp-modal-content button {
+    padding: 8px 15px;
+    font-size: 14px;
   }
-  
-  .navbar .navbar-1 form .search-icon {
-    position: absolute;
-    left: 25px;
-    top: 8px;
-  }
-  
-  .nav-links {
-    padding: 7px 13px;
-    border: solid 1px blue;
-    border-radius: 3px;
-    background-color: #e7f8fe;
-    cursor: pointer;
-  }
-  
-  .nav-links:hover {
-    background-color: #d3e4eb;
-  }
-  
-  @media screen and (max-width: 1120px) {
-    .navbar .navbar-1 form {
-      display: none;
-    }
-  }
-  
-  @media screen and (max-width: 760px) {
-    .slide-in-icon {
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 620px) {
-    .navbar .navbar-1 .res-nav {
-      display: none;
-    }
-  }
-  
+}

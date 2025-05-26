@@ -1,0 +1,105 @@
+{
+  "navbar": {
+    "about": "Sobre",
+    "products": "Produtos",
+    "for_teams": "Para Equipes",
+    "search_placeholder": "Pesquisar...",
+    "login": "Entrar",
+    "obtain_location": "Obter Localização",
+    "logout": "Sair",
+    "location": "Sua localização",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "location_error": "Acesso à localização negado ou ocorreu um erro.",
+    "geolocation_unsupported": "Geolocalização não é suportada por este navegador.",
+    "lang_en": "Inglês",
+    "lang_es": "Espanhol",
+    "lang_hi": "Hindi",
+    "lang_pt": "Português",
+    "lang_zh": "Chinês",
+    "lang_fr": "Francês",
+    "verify_otp": "Verificar OTP",
+    "otp_sent": "OTP enviado para o seu e-mail",
+    "enter_otp": "Inserir OTP",
+    "submit_otp": "Enviar OTP",
+    "cancel": "Cancelar"
+  },
+  "leftsidebar": {
+    "home": "Início",
+    "public": "PÚBLICO",
+    "questions": "Perguntas",
+    "tags": "Tags",
+    "users": "Usuários"
+  },
+  "homemainbar": {
+    "top_questions": "Principais Perguntas",
+    "all_questions": "Todas as Perguntas",
+    "ask_question": "Fazer uma Pergunta",
+    "login_prompt": "Faça login ou cadastre-se para fazer uma pergunta",
+    "loading": "Carregando...",
+    "questions_count": "perguntas"
+  },
+  "widget": {
+    "overflow_blog": "O Blog Overflow",
+    "blog_1": "Observabilidade é a chave para o futuro do software (e sua carreira em DevOps)",
+    "blog_2": "Podcast 374: Quão valioso é o seu nome de tela?",
+    "featured_meta": "Destacado no Meta",
+    "meta_1": "Fluxos de trabalho da fila de revisão - Lançamento final...",
+    "meta_2": "Por favor, dê as boas-vindas aos Associados Valiosos: #958 - V2Blast #959 - SpencerG",
+    "meta_3": "Respostas desatualizadas: resposta aceita agora não está fixada no Stack Overflow",
+    "hot_meta": "Postagens Meta Populares",
+    "hot_meta_1": "Por que esta bandeira de spam foi recusada, mas a pergunta marcada como spam?",
+    "hot_meta_2": "Qual é o melhor curso de ação quando um usuário tem reputação suficiente para...?",
+    "hot_meta_3": "Um link para a página de ajuda 'Como perguntar' é um comentário útil?"
+  },
+  "widgettag": {
+    "watched_tags": "Tags observadas"
+  },
+  "tags": {
+    "title": "Tags",
+    "description1": "Uma tag é uma palavra-chave ou rótulo que categoriza sua pergunta com outras perguntas semelhantes.",
+    "description2": "Usar as tags certas facilita que outros encontrem e respondam sua pergunta."
+  },
+  "tagsList": {
+    "javascript": {
+      "tagName": "javascript",
+      "tagDesc": "Para perguntas sobre programação em ECMAScript (JavaScript/JS) e suas várias dialetos/implementações (excluindo ActionScript). Inclua todas as tags relevantes na sua pergunta."
+    },
+    "python": {
+      "tagName": "python",
+      "tagDesc": "Python é uma linguagem de programação multiparadigma, tipada dinamicamente e de propósito geral. É projetada para ser rápida de aprender, entender e usar, e impõe uma sintaxe limpa e uniforme."
+    },
+    "csharp": {
+      "tagName": "c#",
+      "tagDesc": "C# (pronunciado 'see sharp') é uma linguagem de programação de alto nível, tipada estaticamente, multiparadigma desenvolvida pela Microsoft."
+    },
+    "java": {
+      "tagName": "java",
+      "tagDesc": "Java é uma linguagem de programação orientada a objetos de alto nível. Use esta tag quando estiver tendo problemas ao usar ou entender a linguagem em si."
+    },
+    "php": {
+      "tagName": "php",
+      "tagDesc": "PHP é uma linguagem de script interpretada, de código aberto, multiparadigma, tipada dinamicamente, amplamente utilizada, originalmente projetada para desenvolvimento web do lado do servidor."
+    },
+    "html": {
+      "tagName": "html",
+      "tagDesc": "HTML (Linguagem de Marcação de Hipertexto) é a linguagem de marcação para criar páginas web e outras informações exibidas em um navegador web."
+    },
+    "android": {
+      "tagName": "android",
+      "tagDesc": "Android é o sistema operacional móvel do Google, usado para programar ou desenvolver dispositivos digitais (smartphones, tablets, automóveis, TVs, wearables, Glass, IoT)."
+    },
+    "css": {
+      "tagName": "css",
+      "tagDesc": "CSS é uma linguagem de folha de estilo usada para descrever a aparência e formatação de documentos HTML, XML e elementos SVG, incluindo cores, layout, fontes e animações."
+    },
+    "reactjs": {
+      "tagName": "Reactjs",
+      "tagDesc": "React é uma biblioteca JavaScript para construir interfaces de usuário. Usa um paradigma declarativo baseado em componentes e busca ser eficiente e flexível."
+    },
+    "nodejs": {
+      "tagName": "node.js",
+      "tagDesc": "Node.js é um ambiente de execução assíncrono, não bloqueante, baseado em eventos que usa o motor V8 JavaScript do Google e a biblioteca libuv."
+    }
+  }
+}

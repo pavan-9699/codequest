@@ -1,46 +1,59 @@
-import React from 'react'
-import './Leftsidebar.css'
-import { NavLink } from 'react-router-dom'
-import Globe from "../../assets/Globe.svg"
+import React from 'react';
+import './Leftsidebar.css';
+import { NavLink } from 'react-router-dom';
+import Globe from '../../assets/Globe.svg';
+import { useTranslation } from 'react-i18next';
+
 const Leftsidebar = ({ slidein }) => {
+  const { t } = useTranslation();
   const slideinstyle = {
-    transform: "translateX(0%)",
+    transform: 'translateX(0%)',
   };
   const slideoutstyle = {
-    transform: "translateX(-100%)",
-  }
+    transform: 'translateX(-100%)',
+  };
   return (
     <div className="left-sidebar" style={slidein ? slideinstyle : slideoutstyle}>
-      <nav className='side-nav'>
+      <nav className="side-nav">
         <button className="nav-btnn">
-          <NavLink to='/' className="side-nav-links" activeclassname='active'>
-            <p>Home</p>
+          <NavLink to="/" className="side-nav-links" activeClassName="active">
+            <p>{t('leftsidebar.home')}</p>
           </NavLink>
         </button>
         <div className="side-nav-div">
           <div>
-            <p>PUBLIC</p>
+            <p>{t('leftsidebar.public')}</p>
           </div>
-          <button className='nav-btnn'>
-            <NavLink to='/Question' className='side-nav-links' activeclassname='active'>
-            <img src={Globe} alt="globe" />
-            <p style={{paddingLeft:'10px'}}>Questions</p>
+          <button className="nav-btnn">
+            <NavLink to="/Question" className="side-nav-links" activeClassName="active">
+              <img src={Globe} alt="globe" />
+              <p style={{ paddingLeft: '10px' }}>{t('leftsidebar.questions')}</p>
             </NavLink>
           </button>
-          <button className='nav-btnn'>
-            <NavLink to='/Tags' className='side-nav-links' activeclassname='active' style={{paddingLeft:"40px"}}>
-            <p >Tags</p>
+          <button className="nav-btnn">
+            <NavLink
+              to="/Tags"
+              className="side-nav-links"
+              activeClassName="active"
+              style={{ paddingLeft: '40px' }}
+            >
+              <p>{t('leftsidebar.tags')}</p>
             </NavLink>
           </button>
-          <button className='nav-btnn'>
-            <NavLink to='/Users' className='side-nav-links' activeclassname='active' style={{paddingLeft:"40px"}}>
-            <p >Users</p>
+          <button className="nav-btnn">
+            <NavLink
+              to="/Users"
+              className="side-nav-links"
+              activeClassName="active"
+              style={{ paddingLeft: '40px' }}
+            >
+              <p>{t('leftsidebar.users')}</p>
             </NavLink>
           </button>
         </div>
       </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Leftsidebar
+export default Leftsidebar;
