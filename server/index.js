@@ -125,7 +125,7 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-const database_url = process.env.MONGODB_URL;
+const database_url =  "mongodb+srv://admin:test@codequest.k39tr1p.mongodb.net/?retryWrites=true&w=majority&appName=codequest";
 
 mongoose
   .connect(database_url)
