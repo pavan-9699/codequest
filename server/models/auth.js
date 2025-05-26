@@ -7,7 +7,6 @@ import mongoose from "mongoose";
     about:{type:String},
     tags:{type:[String]},
     joinedon:{type:Date,default:Date.now},
-    questions:{type}
  })
 
  export default mongoose.model("User",userschema)
